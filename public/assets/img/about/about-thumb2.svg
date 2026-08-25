@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="100%" height="100%">
+  <defs>
+    <linearGradient id="abtBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A111E" />
+      <stop offset="50%" stop-color="#111C2E" />
+      <stop offset="100%" stop-color="#070C15" />
+    </linearGradient>
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+    <linearGradient id="themeG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="650" rx="20" fill="url(#abtBg)" stroke="#1E2E48" stroke-width="2"/>
+
+  <!-- Window Header -->
+  <rect x="25" y="25" width="550" height="40" rx="10" fill="#15243B" stroke="#233959" stroke-width="1"/>
+  <circle cx="48" cy="45" r="5" fill="#EF4444" />
+  <circle cx="65" cy="45" r="5" fill="#F59E0B" />
+  <circle cx="82" cy="45" r="5" fill="#10B981" />
+  <text x="105" y="49" fill="#94A3B8" font-family="monospace" font-size="12">rezoan-iqbal@terminal ~ portfolio-core</text>
+
+  <!-- Top Hero Banner Card -->
+  <g transform="translate(35, 80)">
+    <rect width="530" height="130" rx="14" fill="#162740" stroke="#243C61" stroke-width="1"/>
+    <circle cx="65" cy="65" r="36" fill="url(#glowG)" opacity="0.9"/>
+    <text x="65" y="73" fill="#FFFFFF" font-family="sans-serif" font-size="28" text-anchor="middle" font-weight="bold">💻</text>
+    
+    <text x="120" y="50" fill="#FFFFFF" font-family="sans-serif" font-size="22" font-weight="bold">REZOAN IQBAL</text>
+    <text x="120" y="72" fill="#38BDF8" font-family="sans-serif" font-size="14" font-weight="600">Full-Stack Web Developer &amp; Tech Entrepreneur</text>
+    <text x="120" y="94" fill="#94A3B8" font-family="sans-serif" font-size="12">Hamdard University Bangladesh • Bachelor in CSE</text>
+  </g>
+
+  <!-- Terminal Code Output Box -->
+  <g transform="translate(35, 225)">
+    <rect width="530" height="230" rx="14" fill="#0B1320" stroke="#1D304C" stroke-width="1"/>
+    
+    <text x="24" y="36" fill="#34D399" font-family="monospace" font-size="13">$ rezoan.getProfile()</text>
+    
+    <text x="24" y="65" fill="#94A3B8" font-family="monospace" font-size="12">{</text>
+    <text x="44" y="88" fill="#94A3B8" font-family="monospace" font-size="12">"experience": <tspan fill="#F59E0B">"5+ Years Hands-On"</tspan>,</text>
+    <text x="44" y="110" fill="#94A3B8" font-family="monospace" font-size="12">"leadership": <tspan fill="#38BDF8">["Uperskill Academy", "Uperkill Agency"]</tspan>,</text>
+    <text x="44" y="132" fill="#94A3B8" font-family="monospace" font-size="12">"specialties": <tspan fill="#A78BFA">["Laravel", "React", "Supabase", "AI Coding", "E-Commerce"]</tspan>,</text>
+    <text x="44" y="154" fill="#94A3B8" font-family="monospace" font-size="12">"projectsDelivered": <tspan fill="#34D399">"25+ Worldwide (SAU, AUS, USA, BD)"</tspan>,</text>
+    <text x="44" y="176" fill="#94A3B8" font-family="monospace" font-size="12">"location": <tspan fill="#F43F5E">"Cumilla, Bangladesh"</tspan></text>
+    <text x="24" y="198" fill="#94A3B8" font-family="monospace" font-size="12">}</text>
+  </g>
+
+  <!-- Skill Badges Grid -->
+  <g transform="translate(35, 470)">
+    <rect width="530" height="150" rx="14" fill="#162740" stroke="#243C61" stroke-width="1"/>
+    <text x="20" y="32" fill="#FFFFFF" font-family="sans-serif" font-size="14" font-weight="bold">Core Technical Proficiencies</text>
+
+    <!-- Badge Row 1 -->
+    <rect x="20" y="48" width="105" height="34" rx="8" fill="#1E3659" stroke="#38BDF8" stroke-width="1"/>
+    <text x="32" y="70" fill="#38BDF8" font-family="sans-serif" font-size="12" font-weight="bold">PHP / Laravel</text>
+
+    <rect x="135" y="48" width="85" height="34" rx="8" fill="#1E3659" stroke="#60A5FA" stroke-width="1"/>
+    <text x="148" y="70" fill="#60A5FA" font-family="sans-serif" font-size="12" font-weight="bold">React.js</text>
+
+    <rect x="230" y="48" width="95" height="34" rx="8" fill="#1E3659" stroke="#34D399" stroke-width="1"/>
+    <text x="242" y="70" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="bold">Supabase</text>
+
+    <rect x="335" y="48" width="100" height="34" rx="8" fill="#1E3659" stroke="#FBBF24" stroke-width="1"/>
+    <text x="345" y="70" fill="#FBBF24" font-family="sans-serif" font-size="12" font-weight="bold">PostgreSQL</text>
+
+    <rect x="445" y="48" width="65" height="34" rx="8" fill="#1E3659" stroke="#F472B6" stroke-width="1"/>
+    <text x="454" y="70" fill="#F472B6" font-family="sans-serif" font-size="12" font-weight="bold">UI/UX</text>
+
+    <!-- Badge Row 2 -->
+    <rect x="20" y="95" width="115" height="34" rx="8" fill="#1E3659" stroke="#A78BFA" stroke-width="1"/>
+    <text x="30" y="117" fill="#A78BFA" font-family="sans-serif" font-size="12" font-weight="bold">AI Automation</text>
+
+    <rect x="145" y="95" width="105" height="34" rx="8" fill="#1E3659" stroke="#F87171" stroke-width="1"/>
+    <text x="156" y="117" fill="#F87171" font-family="sans-serif" font-size="12" font-weight="bold">WordPress</text>
+
+    <rect x="260" y="95" width="110" height="34" rx="8" fill="#1E3659" stroke="#38BDF8" stroke-width="1"/>
+    <text x="270" y="117" fill="#38BDF8" font-family="sans-serif" font-size="12" font-weight="bold">Meta Ads / GTM</text>
+
+    <rect x="380" y="95" width="130" height="34" rx="8" fill="#1E3659" stroke="#34D399" stroke-width="1"/>
+    <text x="390" y="117" fill="#34D399" font-family="sans-serif" font-size="12" font-weight="bold">E-Commerce</text>
+  </g>
+</svg>

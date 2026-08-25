@@ -1,0 +1,166 @@
+import { Link } from "react-router-dom";
+
+export default function FooterTwo() {
+  return (
+    <>
+
+      {/* <!--<< Footer Section Start >>--> */}
+      <footer className="footer-section footer-section-2 fix">
+        <div className="container py-lg-0 py-5 my-lg-0 my-5">
+          <div className="row g-4 align-items-center">
+            <div className="col-lg-4 col-md-6 border-end border-clr-this">
+              <div className="py-lg-5 me-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                <div className="my-xl-5 py-lg-4">
+                  <div className="sarah-mitchel">
+                    <div className="head mb-3 d-inline-flex align-items-center gap-xxl-3 gap-2">
+                      <div className="thumb">
+                        <img src="/assets/img/banner/user-hero.png" alt="Rezoan Iqbal" className="rounded-2" style={{ width: "60px", height: "60px", objectFit: "cover" }} />
+                      </div>
+                      <div className="cont">
+                        <div
+                          className="fs-32px mb-2 text-white text-uppercase heading-font lh-1 fw-bold mb-1">
+                          Rezoan Iqbal
+                        </div>
+                        <p className="fs-seven text-white opacity-75">
+                          Web Developer &amp; Entrepreneur
+                        </p>
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="fs-seven text-uppercase opacity-75 mb-3 fw-semibold text-white">
+                        Connect With Me:
+                      </div>
+                      <div className="social-white gap-xl-3 gap-2 d-flex align-items-center">
+                        <a href="https://facebook.com" target="_blank" rel="noreferrer" className="icon">
+                          <i className="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noreferrer" className="icon">
+                          <i className="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noreferrer" className="icon">
+                          <i className="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="icon">
+                          <i className="fa-brands fa-linkedin"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="badge">
+                      CONTACT ME
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-8">
+              <div className="ps-lg-4">
+                <div className="row g-4">
+                  <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div className="">
+                      <div className="heading-font mb-lg-4 mb-3 fs-32px fw-bold text-white">
+                        About
+                      </div>
+                      <p className="fs-seven text-white opacity-75 pb-xxl-5 pb-4">
+                        Rezoan Iqbal is a full-stack developer &amp; tech entrepreneur building high-performance web systems, e-commerce stores, and automation tools.
+                      </p>
+                      <p className="py-2 px-4 bg-white rounded-pill pra-clr text-center fs-seven">
+                        &copy; 2026 <span className="text-theme fw-semibold">Rezoan Iqbal.</span> All rights reserved.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div className="heading-font mb-lg-4 mb-3 fs-32px fw-bold text-white">
+                      Quick Links
+                    </div>
+                    <ul className="d-flex flex-wrap gap-3 wow fadeInUp" data-wow-delay="0.4s">
+                      <li>
+                        <Link to="/about" className="fs-seven text-white opacity-75">
+                          About Me
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/project" className="fs-seven text-white opacity-75">
+                          Projects
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/service" className="fs-seven text-white opacity-75">
+                          Services
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/contact" className="fs-seven text-white opacity-75">
+                          Contact
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="col-lg-5 col-md-7 wow fadeInUp" data-wow-delay="0.7s">
+                    <div className="heading-font mb-4 pb-lg-2 fs-32px fw-bold text-white">
+                      Subscribe to My <br /> Developer Newsletter
+                    </div>
+                    <form onSubmit={(e) => e.preventDefault()}
+                      className="form-style002 d-flex flex-xl-nowrap flex-wrap align-items-center gap-0">
+                      <input type="email" placeholder="Enter your Email" required />
+                      <button type="submit">
+                        Subscribe
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="marquee gap-10px">
+          <div className="marquee-group text-box-wrapper gap-10px">
+            <div className="marquee-icon p-0 text-nowrap">
+              Homna (3546), Cumilla, Bangladesh
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              +8801316357404
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              rezoaniqbalrohan@gmail.com
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              Full-Stack &amp; AI Developer
+            </div>
+          </div>
+          <div className="marquee-group text-box-wrapper gap-10px">
+            <div className="marquee-icon p-0 text-nowrap">
+              Homna (3546), Cumilla, Bangladesh
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              +8801316357404
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              rezoaniqbalrohan@gmail.com
+            </div>
+            <div className="marquee-icon p-0">
+              <img src="/assets/img/footer/slide-line.png" alt="line" />
+            </div>
+            <div className="marquee-icon p-0 text-nowrap">
+              Full-Stack &amp; AI Developer
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  )
+}
